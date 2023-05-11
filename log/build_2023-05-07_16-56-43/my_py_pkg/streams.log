@@ -1,0 +1,27 @@
+[1.140s] Invoking command in '/home/joergen/ros2_udemy/build/my_py_pkg': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/joergen/ros2_udemy/build/my_py_pkg/build --no-deps install_data
+[1.672s] running develop
+[2.042s] running egg_info
+[2.043s] writing my_py_pkg.egg-info/PKG-INFO
+[2.043s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.044s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.044s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.044s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.049s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.052s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.057s] running build_ext
+[2.057s] Creating /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.058s] Installing add_two_ints_client script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.059s] Installing add_two_ints_client_no_oop script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.059s] Installing add_two_ints_server script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.060s] Installing battery_client script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.060s] Installing hw_status_publisher script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.060s] Installing led_panel script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.061s] Installing number_counter script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.061s] Installing number_publisher script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.061s] Installing py_node script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.061s] Installing robot_news_station script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.061s] Installing smartphone script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.062s] 
+[2.062s] Installed /home/joergen/ros2_udemy/build/my_py_pkg
+[2.062s] running install_data
+[2.129s] Invoked command in '/home/joergen/ros2_udemy/build/my_py_pkg' returned '0': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/joergen/ros2_udemy/build/my_py_pkg/build --no-deps install_data

@@ -1,0 +1,56 @@
+[1.564s] Invoking command in '/home/joergen/ros2_udemy/build/my_py_pkg': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/joergen/ros2_udemy/build/my_py_pkg/build
+[2.135s] running develop
+[2.473s] Removing /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.521s] Invoked command in '/home/joergen/ros2_udemy/build/my_py_pkg' returned '0': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/joergen/ros2_udemy/build/my_py_pkg/build
+[2.525s] Invoking command in '/home/joergen/ros2_udemy/src/my_py_pkg': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/joergen/ros2_udemy/build/my_py_pkg/build install --record /home/joergen/ros2_udemy/build/my_py_pkg/install.log --single-version-externally-managed
+[2.977s] running egg_info
+[2.978s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.978s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.979s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.979s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.979s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.997s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.005s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.005s] running build
+[3.005s] running build_py
+[3.006s] copying my_py_pkg/number_counter.py -> /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg
+[3.006s] copying my_py_pkg/add_two_ints_server.py -> /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg
+[3.007s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg
+[3.007s] copying my_py_pkg/add_two_ints_client.py -> /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg
+[3.008s] running install
+[3.009s] running install_lib
+[3.010s] creating /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.011s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.011s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.011s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.012s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.012s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.012s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.012s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.013s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.013s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.013s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.014s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-310.pyc
+[3.015s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[3.016s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[3.017s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc
+[3.017s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[3.018s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[3.019s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[3.019s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-310.pyc
+[3.020s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[3.020s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[3.021s] running install_data
+[3.022s] running install_egg_info
+[3.025s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[3.028s] running install_scripts
+[3.062s] Installing add_two_ints_client script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[3.062s] Installing add_two_ints_client_no_oop script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[3.063s] Installing add_two_ints_server script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[3.063s] Installing number_counter script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[3.064s] Installing number_publisher script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[3.064s] Installing py_node script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[3.065s] Installing robot_news_station script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[3.065s] Installing smartphone script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[3.065s] writing list of installed files to '/home/joergen/ros2_udemy/build/my_py_pkg/install.log'
+[3.113s] Invoked command in '/home/joergen/ros2_udemy/src/my_py_pkg' returned '0': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/joergen/ros2_udemy/build/my_py_pkg/build install --record /home/joergen/ros2_udemy/build/my_py_pkg/install.log --single-version-externally-managed

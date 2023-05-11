@@ -1,0 +1,14 @@
+[0.038s] Invoking command in '/home/joergen/ros2_udemy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake --build /home/joergen/ros2_udemy/build/my_cpp_pkg -- -j8 -l8
+[0.158s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[4.066s] [01m[K/home/joergen/ros2_udemy/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[4.066s] [01m[K/home/joergen/ros2_udemy/src/my_cpp_pkg/src/my_first_node.cpp:7:34:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMyNode[m[K’ does not have any field named ‘[01m[Kcounter_[m[K’
+[4.066s]     7 |     MyNode() : Node("cpp_test"), [01;31m[Kcounter_[m[K(0)
+[4.066s]       |                                  [01;31m[K^~~~~~~~[m[K
+[4.093s] [01m[K/home/joergen/ros2_udemy/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::timerCallback()[m[K’:
+[4.094s] [01m[K/home/joergen/ros2_udemy/src/my_cpp_pkg/src/my_first_node.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter_[m[K’ was not declared in this scope
+[4.094s]    19 |         [01;31m[Kcounter_[m[K++;
+[4.094s]       |         [01;31m[K^~~~~~~~[m[K
+[4.974s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[4.976s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+[4.981s] gmake: *** [Makefile:146: all] Error 2
+[4.987s] Invoked command in '/home/joergen/ros2_udemy/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake --build /home/joergen/ros2_udemy/build/my_cpp_pkg -- -j8 -l8

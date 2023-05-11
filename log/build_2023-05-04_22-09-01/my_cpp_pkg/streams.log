@@ -1,0 +1,19 @@
+[0.046s] Invoking command in '/home/joergen/ros2_udemy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake /home/joergen/ros2_udemy/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/joergen/ros2_udemy/install/my_cpp_pkg
+[0.182s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.309s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.323s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.408s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.416s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.426s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.442s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.477s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.651s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.655s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.915s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.511s] -- Configuring done
+[1.532s] -- Generating done
+[1.538s] -- Build files have been written to: /home/joergen/ros2_udemy/build/my_cpp_pkg
+[1.562s] Invoked command in '/home/joergen/ros2_udemy/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake /home/joergen/ros2_udemy/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/joergen/ros2_udemy/install/my_cpp_pkg
+[1.564s] Invoking command in '/home/joergen/ros2_udemy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake --build /home/joergen/ros2_udemy/build/my_cpp_pkg -- -j8 -l8
+[1.658s] [100%] Built target cpp_node
+[1.672s] Invoked command in '/home/joergen/ros2_udemy/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake --build /home/joergen/ros2_udemy/build/my_cpp_pkg -- -j8 -l8

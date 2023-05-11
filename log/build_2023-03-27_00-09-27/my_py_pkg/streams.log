@@ -1,0 +1,21 @@
+[1.514s] Invoking command in '/home/joergen/ros2_udemy/src/my_py_pkg': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/joergen/ros2_udemy/build/my_py_pkg/build install --record /home/joergen/ros2_udemy/build/my_py_pkg/install.log --single-version-externally-managed
+[2.057s] running egg_info
+[2.059s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.060s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.060s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.061s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.061s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.065s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.066s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.067s] running build
+[2.067s] running build_py
+[2.068s] running install
+[2.069s] running install_lib
+[2.072s] running install_data
+[2.073s] running install_egg_info
+[2.076s] removing '/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.076s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.078s] running install_scripts
+[2.124s] Installing py_node script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.125s] writing list of installed files to '/home/joergen/ros2_udemy/build/my_py_pkg/install.log'
+[2.184s] Invoked command in '/home/joergen/ros2_udemy/src/my_py_pkg' returned '0': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/joergen/ros2_udemy/build/my_py_pkg/build install --record /home/joergen/ros2_udemy/build/my_py_pkg/install.log --single-version-externally-managed

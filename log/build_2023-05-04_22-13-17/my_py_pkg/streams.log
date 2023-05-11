@@ -1,0 +1,29 @@
+[1.194s] Invoking command in '/home/joergen/ros2_udemy/src/my_py_pkg': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/joergen/ros2_udemy/build/my_py_pkg/build install --record /home/joergen/ros2_udemy/build/my_py_pkg/install.log --single-version-externally-managed
+[1.685s] running egg_info
+[1.686s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.687s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.687s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.687s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.688s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.692s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.694s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.694s] running build
+[1.694s] running build_py
+[1.695s] running install
+[1.696s] running install_lib
+[1.699s] running install_data
+[1.700s] running install_egg_info
+[1.702s] removing '/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.703s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.705s] running install_scripts
+[1.741s] Installing add_two_ints_client script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[1.741s] Installing add_two_ints_client_no_oop script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[1.741s] Installing add_two_ints_server script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[1.742s] Installing hw_status_publisher script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[1.742s] Installing number_counter script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[1.742s] Installing number_publisher script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[1.743s] Installing py_node script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[1.743s] Installing robot_news_station script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[1.748s] Installing smartphone script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[1.748s] writing list of installed files to '/home/joergen/ros2_udemy/build/my_py_pkg/install.log'
+[1.793s] Invoked command in '/home/joergen/ros2_udemy/src/my_py_pkg' returned '0': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/joergen/ros2_udemy/build/my_py_pkg/build install --record /home/joergen/ros2_udemy/build/my_py_pkg/install.log --single-version-externally-managed

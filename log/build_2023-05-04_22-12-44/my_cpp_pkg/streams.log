@@ -1,0 +1,58 @@
+[0.045s] Invoking command in '/home/joergen/ros2_udemy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake /home/joergen/ros2_udemy/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/joergen/ros2_udemy/install/my_cpp_pkg
+[0.222s] -- The C compiler identification is GNU 11.3.0
+[0.354s] -- The CXX compiler identification is GNU 11.3.0
+[0.398s] -- Detecting C compiler ABI info
+[0.490s] -- Detecting C compiler ABI info - done
+[0.522s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.523s] -- Detecting C compile features
+[0.523s] -- Detecting C compile features - done
+[0.527s] -- Detecting CXX compiler ABI info
+[0.645s] -- Detecting CXX compiler ABI info - done
+[0.667s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.668s] -- Detecting CXX compile features
+[0.669s] -- Detecting CXX compile features - done
+[0.673s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.267s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.449s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.538s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.550s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.569s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.605s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.666s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.868s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.873s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.100s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.150s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.250s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.275s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.381s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.383s] -- Found Threads: TRUE  
+[3.058s] -- Configuring done
+[3.086s] -- Generating done
+[3.090s] -- Build files have been written to: /home/joergen/ros2_udemy/build/my_cpp_pkg
+[3.110s] Invoked command in '/home/joergen/ros2_udemy/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake /home/joergen/ros2_udemy/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/joergen/ros2_udemy/install/my_cpp_pkg
+[3.114s] Invoking command in '/home/joergen/ros2_udemy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake --build /home/joergen/ros2_udemy/build/my_cpp_pkg -- -j8 -l8
+[3.204s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[8.527s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[8.748s] [100%] Built target cpp_node
+[8.764s] Invoked command in '/home/joergen/ros2_udemy/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake --build /home/joergen/ros2_udemy/build/my_cpp_pkg -- -j8 -l8
+[8.849s] Invoking command in '/home/joergen/ros2_udemy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake --install /home/joergen/ros2_udemy/build/my_cpp_pkg
+[8.901s] -- Install configuration: ""
+[8.901s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[8.901s] -- Set runtime path of "/home/joergen/ros2_udemy/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[8.902s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[8.902s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[8.902s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[8.902s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[8.903s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[8.903s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[8.903s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[8.903s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[8.903s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[8.904s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[8.904s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[8.904s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[8.904s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[8.904s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[8.904s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[8.921s] Invoked command in '/home/joergen/ros2_udemy/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake --install /home/joergen/ros2_udemy/build/my_cpp_pkg

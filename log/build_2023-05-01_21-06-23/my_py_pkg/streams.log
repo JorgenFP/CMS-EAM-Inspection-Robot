@@ -1,0 +1,22 @@
+[1.380s] Invoking command in '/home/joergen/ros2_udemy/build/my_py_pkg': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/joergen/ros2_udemy/build/my_py_pkg/build --no-deps install_data
+[1.999s] running develop
+[2.263s] running egg_info
+[2.264s] writing my_py_pkg.egg-info/PKG-INFO
+[2.264s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.264s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.265s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.265s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.267s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.267s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.268s] running build_ext
+[2.268s] Creating /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.269s] Installing add_two_ints_server script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.271s] Installing number_counter script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.272s] Installing number_publisher script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.272s] Installing py_node script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.272s] Installing robot_news_station script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.272s] Installing smartphone script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.272s] 
+[2.272s] Installed /home/joergen/ros2_udemy/build/my_py_pkg
+[2.272s] running install_data
+[2.339s] Invoked command in '/home/joergen/ros2_udemy/build/my_py_pkg' returned '0': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/joergen/ros2_udemy/build/my_py_pkg/build --no-deps install_data

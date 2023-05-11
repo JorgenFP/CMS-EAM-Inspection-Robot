@@ -1,0 +1,45 @@
+[1.167s] Invoking command in '/home/joergen/ros2_udemy/build/my_py_pkg': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/joergen/ros2_udemy/build/my_py_pkg/build
+[1.724s] running develop
+[2.055s] Removing /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.109s] Invoked command in '/home/joergen/ros2_udemy/build/my_py_pkg' returned '0': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/joergen/ros2_udemy/build/my_py_pkg/build
+[2.111s] Invoking command in '/home/joergen/ros2_udemy/src/my_py_pkg': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/joergen/ros2_udemy/build/my_py_pkg/build install --record /home/joergen/ros2_udemy/build/my_py_pkg/install.log --single-version-externally-managed
+[2.614s] running egg_info
+[2.615s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.615s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.616s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.616s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.617s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.621s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.622s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.623s] running build
+[2.623s] running build_py
+[2.624s] copying my_py_pkg/my_first_node.py -> /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg
+[2.624s] copying my_py_pkg/smartphone.py -> /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg
+[2.624s] copying my_py_pkg/template_python_node.py -> /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg
+[2.625s] copying my_py_pkg/number_publisher.py -> /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg
+[2.625s] copying my_py_pkg/robot_news_station.py -> /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg
+[2.625s] running install
+[2.626s] running install_lib
+[2.627s] creating /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.628s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.628s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.629s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.629s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.629s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.630s] copying /home/joergen/ros2_udemy/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.630s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[2.630s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[2.631s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[2.631s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-310.pyc
+[2.632s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[2.633s] byte-compiling /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[2.633s] running install_data
+[2.634s] running install_egg_info
+[2.637s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.639s] running install_scripts
+[2.679s] Installing number_publisher script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.680s] Installing py_node script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.680s] Installing robot_news_station script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.680s] Installing smartphone script to /home/joergen/ros2_udemy/install/my_py_pkg/lib/my_py_pkg
+[2.682s] writing list of installed files to '/home/joergen/ros2_udemy/build/my_py_pkg/install.log'
+[2.730s] Invoked command in '/home/joergen/ros2_udemy/src/my_py_pkg' returned '0': PYTHONPATH=/home/joergen/ros2_udemy/build/my_py_pkg/prefix_override:/home/joergen/ros2_udemy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/joergen/ros2_udemy/build/my_py_pkg/build install --record /home/joergen/ros2_udemy/build/my_py_pkg/install.log --single-version-externally-managed

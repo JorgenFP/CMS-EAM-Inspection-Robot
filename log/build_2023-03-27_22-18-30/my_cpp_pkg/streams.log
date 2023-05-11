@@ -1,0 +1,25 @@
+[0.033s] Invoking command in '/home/joergen/ros2_udemy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake --build /home/joergen/ros2_udemy/build/my_cpp_pkg -- -j8 -l8
+[0.188s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[5.369s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[5.548s] [100%] Built target cpp_node
+[5.568s] Invoked command in '/home/joergen/ros2_udemy/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake --build /home/joergen/ros2_udemy/build/my_cpp_pkg -- -j8 -l8
+[5.710s] Invoking command in '/home/joergen/ros2_udemy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake --install /home/joergen/ros2_udemy/build/my_cpp_pkg
+[5.758s] -- Install configuration: ""
+[5.759s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[5.761s] -- Set runtime path of "/home/joergen/ros2_udemy/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[5.761s] -- Up-to-date: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[5.762s] -- Up-to-date: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[5.762s] -- Up-to-date: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[5.762s] -- Up-to-date: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[5.763s] -- Up-to-date: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[5.763s] -- Up-to-date: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[5.763s] -- Up-to-date: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[5.763s] -- Up-to-date: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[5.763s] -- Up-to-date: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[5.764s] -- Up-to-date: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[5.764s] -- Installing: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[5.764s] -- Up-to-date: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[5.764s] -- Up-to-date: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[5.764s] -- Up-to-date: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[5.764s] -- Up-to-date: /home/joergen/ros2_udemy/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[5.774s] Invoked command in '/home/joergen/ros2_udemy/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joergen/ros2_udemy/install/my_py_pkg:/opt/ros/humble /home/joergen/.local/bin/cmake --install /home/joergen/ros2_udemy/build/my_cpp_pkg

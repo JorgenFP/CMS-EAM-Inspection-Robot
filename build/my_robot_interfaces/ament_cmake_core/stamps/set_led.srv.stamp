@@ -1,0 +1,10 @@
+bool led1_status
+bool led2_status
+bool led3_status
+---
+bool led1_status_success
+string led1_status_message
+bool led2_status_success
+string led2_status_message
+bool led3_status_success
+string led3_status_message
